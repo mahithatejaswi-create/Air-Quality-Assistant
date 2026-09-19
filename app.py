@@ -8,7 +8,7 @@ GEMINI_KEY = st.secrets["GEMINI_KEY"]
 
 # --- 2. CONFIGURE THE AI ---
 genai.configure(api_key=GEMINI_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-3.5-flash')
 
 # --- 3. BUILD THE WEBSITE INTERFACE ---
 st.title("🌍 Air Quality & Health Precaution Assistant")
